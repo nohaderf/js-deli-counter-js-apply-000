@@ -16,7 +16,7 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length > 0){
     var checkInList = [ ];
     for (var i = 0; i < katzDeliLine.length; i++){
-      checkInList.push( " " + i+1 + ". " + katzDeliLine[i]);
+      checkInList.push(i+1 + ". " + katzDeliLine[i]);
     } return "The line is currently: " + checkInList
     } else {
       return "The line is currently empty.";
